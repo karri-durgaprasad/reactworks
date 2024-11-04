@@ -1,0 +1,59 @@
+ export const MobileData =[
+    {
+         image:'/Images/one.webp',
+         id:1,
+         brand:'vivo',
+         model:'v29e',
+         price:20000,
+ },
+ {
+    image:'/Images/two.jpg',
+    id:2,
+    brand:'vivo',
+    model:'v20e',
+    price:20000,
+ },
+ {
+   image:'/Images/three.jpg',
+    id:3,
+    brand:'vivo',
+    model:'v21e',
+    price:20000,
+ },
+ {
+   image:'/Images/four.jpg',
+    id:4,
+    brand:'vivo',
+    model:'v30e',
+    price:20000,
+ },
+ {
+   image:'/Images/five.jpg',
+    id:5,
+    brand:'MI',
+    model:'9pro max',
+    price:10000,
+ },
+ {
+   image:'/Images/six.png',
+    id:6,
+    brand:'MI',
+    model:'10pro max',
+    price:25000,
+ },
+ {
+   image:'/Images/seven.png',
+    id:7,
+    brand:'vivo',
+    model:'11pro max',
+    price:26000,
+ },
+ {
+   image:'/Images/eight.webp',
+    id:8,
+    brand:'iq',
+    model:'z7bro',
+    price:22000,
+ }
+    
+]
