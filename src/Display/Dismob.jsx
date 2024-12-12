@@ -1,11 +1,23 @@
 import React from 'react'
 import { MobileData } from '../Data/Mobile'
 import { Link } from 'react-router-dom'
+import { Row,Col } from 'react-bootstrap'
+import SideNav from '../Components/SideNav'
+import Header from '../Components/Header'
 function Dismob() {
     
   return (
-  <div>
-  <Link to='/products'><span>View Less</span></Link>  
+    <div>
+        <Row>
+            <Col sm={2}>
+               <SideNav/> 
+            </Col>
+            <Col sm={10}>
+                 <div>
+                    <Header/>
+                 </div>
+                 <div style={{marginTop:'70px'}}>
+                 <Link to='/products'><span>View Less</span></Link>  
    <div style={{display:'flex',flexWrap:'wrap',gap:'10px',paddingLeft:'10px',paddingBottom:'10px'}}>
    
     {
@@ -27,7 +39,14 @@ function Dismob() {
         })
     }
    </div>
+                 </div>
+            </Col>
+        </Row>
+         <div>
+  
    </div>
+    </div>
+ 
   )
 }
 
